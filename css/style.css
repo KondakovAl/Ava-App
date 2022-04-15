@@ -4,12 +4,14 @@
     --text_color: #000000;
     --text_buttons: #ffffff;
     --bg_buttons: #0057FF;
+    --blue: #0057FF;
     --light: #ffffff;
 
 }
 
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -19,6 +21,7 @@ a {
     color: inherit;
 }
 
+
 body {
     font-family: 'Oswald', sans-serif;
     color: var(--text_color);
@@ -26,7 +29,7 @@ body {
     line-height: 26px;
     background: var(--light);
     
-    /* font-family: 'Roboto', sans-serif; */
+   
 }
 
 header {
@@ -93,7 +96,7 @@ header {
     
 }
 
-.button-container {
+.header__button-container {
     margin-left: auto;
 }
 .header__button {
@@ -101,7 +104,7 @@ header {
 }
 
 .header__button:hover {
-    width: 193px;
+
     animation: pulsate 1s ease-in-out;
 }
 
@@ -117,13 +120,192 @@ header {
     display: none;
 }
 
-@media (max-width: 1200px) {
-    
-  
+.layout__section {
+    position: relative;
+}
+
+.promo {
+    padding: 52px 0 0 0;
+}
+
+.promo__wrapper{
+    justify-content: space-evenly;
 
 }
 
+.promo__description{
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    justify-content: center;
+}
 
+.promo__title {
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: uppercase;
+    margin: 0 0 52px 0;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.client__card {
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px 0;
+    
+}
+
+.client__comment {
+    margin: 0 0 20px 0;
+}
+
+.client__avatar-container {
+    font-size: 0;
+    margin: 0 20px 0 0;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.client__info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.client__name {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 10px 0;
+}
+
+.client__rating {
+    list-style: none;
+    display: flex;
+    
+}
+
+.promo__button {
+    width: 176px;
+    background: #FFA332;
+}
+
+.promo__button:hover {
+    animation: pulsate_promo 1s ease-in-out;
+}
+
+.promo__image-container {
+    height: 750px;
+}
+
+@keyframes pulsate_promo {
+    0% {
+        box-shadow:
+        0 0 5px #5ddcff,
+        0 0 10px #FFA332;
+        ;
+    }
+}
+
+.technology {
+    padding: 40px 0 100px;
+}
+
+.technology__wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.technology__title {
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: var(--blue);
+    margin-bottom: 5px;
+
+}
+
+.technology__subtitle {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1px;
+}
+
+.techonoly__text {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 0 45px 0;
+}
+
+.technology__image-container {
+    height: 400px;
+    margin: 0 0 40px 0;
+}
+
+.technology__link {
+    letter-spacing: 0.5px;
+}
+
+.info {
+    padding: 100px 0 230px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+}
+
+
+
+.about__subtitle {
+    margin:0 0 45px;
+}
+
+.about__text {
+    margin:0 0 35px;  
+}
+
+.about__advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__icon-container {
+    max-height: 45px;
+    margin: 0 0 28px;
+
+}
+
+.card__title {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 36px;
+    margin: 0 0 16px;
+}
+
+
+.card__text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+    
+
+}
 
 @media (max-width: 768px) {
     .burger > span {
@@ -142,25 +324,25 @@ header {
         transition: all .3s ease-in-out;
     }
     
-    .burger.active {
+    .burger._active {
         transition-delay: 0.5s;
         transform: rotate(45deg);
     }
     
-    .burger.active > span:nth-child(2)  {
+    .burger._active > span:nth-child(2)  {
         width: 0;
     }
     
-    .burger.active > span:nth-child(1),
-    .burger.active > span:nth-child(3)   {
+    .burger._active > span:nth-child(1),
+    .burger._active > span:nth-child(3)   {
         transition-delay: .3s;
     }
     
-    .burger.active > span:nth-child(1)   {
+    .burger._active > span:nth-child(1)   {
         transform: translateY(9px);
     }
     
-    .burger.active > span:nth-child(3)   {
+    .burger._active > span:nth-child(3)   {
         transform: translateY(-9px) rotate(90deg);
     }
 
@@ -173,7 +355,8 @@ header {
     .menu {
         display: none;
     }
-
+    
+    
         
     .menu_mobile {
     display: flex;
@@ -193,11 +376,11 @@ header {
     /* overflow-y: auto; */
     }
 
-    .menu_mobile.active {
+    .menu_mobile._active {
         top: 0;
     }
 
-    body.lock {
+    body._lock {
         overflow: hidden;
     }
 
