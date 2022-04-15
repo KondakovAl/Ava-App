@@ -99,11 +99,12 @@ header {
 .header__button-container {
     margin-left: auto;
 }
+
 .header__button {
     width: 193px; 
 }
 
-.header__button:hover {
+.button:hover {
 
     animation: pulsate 1s ease-in-out;
 }
@@ -165,10 +166,11 @@ header {
 }
 
 .client__avatar-container {
-    font-size: 0;
     margin: 0 20px 0 0;
-    max-width: 80px;
-    max-height: 80px;
+}
+
+.avatar__image {
+    display: block;
 }
 
 .client__info {
@@ -199,8 +201,8 @@ header {
     animation: pulsate_promo 1s ease-in-out;
 }
 
-.promo__image-container {
-    height: 750px;
+.promo__image {
+    display: block; 
 }
 
 @keyframes pulsate_promo {
@@ -250,8 +252,11 @@ header {
 }
 
 .technology__image-container {
-    height: 400px;
     margin: 0 0 40px 0;
+}
+
+.technology__image {
+    display: block;
 }
 
 .technology__link {
@@ -260,6 +265,10 @@ header {
 
 .info {
     padding: 100px 0 230px;
+}
+
+.info__wrapper {
+    justify-content: space-between;
 }
 
 .about {
@@ -281,12 +290,21 @@ header {
 .about__advantages {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 195px;
 }
 
 .card__icon-container {
-    max-height: 45px;
     margin: 0 0 28px;
+}
 
+.card__icon {
+    display: block;
 }
 
 .card__title {
@@ -301,6 +319,88 @@ header {
     font-size: 14px;
     line-height: 24px;
 }
+
+.about__button {
+    width: 140px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.contact__image {
+    display: block;
+}
+
+.form {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 460px;
+    padding: 55px 40px;
+}
+
+.form__title {
+    text-transform: uppercase;
+    font-size: 29px;
+    line-height: 40px;
+    margin: 0 0 26px;
+}
+
+.form__text {
+    margin: 0 0 17px;
+}
+
+.form__user-contacts {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px  ;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 25px; */
+    justify-content: space-between;
+}
+
+.form__input {
+    outline: none;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    width: 218px;
+    height: 60px;
+    padding: 0 30px 0 30px;  
+}
+
+.form__input-name {
+    
+}
+
+.form__input-email {
+    
+}
+
+.form__label-name {
+    display: none;
+}
+
+.form__label-email {
+    display: none;
+}
+
+.form__label-tel {
+    display: none;
+}
+
+.form__label-web {
+    display: none;
+}
+
+
 
 @media (max-width: 1200px) {
     
