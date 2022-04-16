@@ -174,46 +174,154 @@
                 only way to be truly satisfied.
               </p>
               <fieldset class="form__user-contacts">
-                <input class="form__input-name form__input" type="text"
-                name="user-name" placeholder=" " / id="user-field-name">
-                <label class="form__label-name" for="user-field-id"
-                  >Enter your name</label
-                >
-                <input
-                  class="form__input-email form__input"
-                  type="email"
-                  name="user-email"
-                  placeholder=" "
-                  id="user-field-email"
-                />
-                <label class="form__label-email" for="user-field-email"
-                  >Enter your email</label
-                >
-                <input
-                  class="form__input-tel form__input"
-                  type="tel"
-                  name="user-tel"
-                  placeholder=" "
-                  id="user-field-tel"
-                />
-                <label class="form__label-tel" for="user-field-tel"
-                  >Enter your telephone</label
-                >
-                <input
-                  class="form__input-web form__input"
-                  type="url"
-                  name="user-web"
-                  placeholder=" "
-                  id="user-field-web"
-                />
-                <label class="form__label-web" for="user-field-web"
-                  >Enter your website URL</label
-                >
+                <div class="form__group">
+                  <input class="form__input-name form__input" type="text"
+                  name="user-name" placeholder=" " / id="user-field-name">
+                  <label
+                    class="form__label-name form__label"
+                    for="user-field-id"
+                    >Enter your name</label
+                  >
+                </div>
+                <div class="form__group">
+                  <input
+                    class="form__input-email form__input"
+                    type="email"
+                    name="user-email"
+                    placeholder=" "
+                    id="user-field-email"
+                  />
+                  <label
+                    class="form__label-email form__label"
+                    for="user-field-email"
+                    >Enter your email</label
+                  >
+                </div>
+                <div class="form__group">
+                  <input
+                    class="form__input-tel form__input"
+                    type="tel"
+                    name="user-tel"
+                    placeholder=" "
+                    id="user-field-tel"
+                  />
+                  <label
+                    class="form__label-tel form__label"
+                    for="user-field-tel"
+                    >Enter your telephone</label
+                  >
+                </div>
+                <div class="form__group">
+                  <input
+                    class="form__input-web form__input"
+                    type="url"
+                    name="user-web"
+                    placeholder=" "
+                    id="user-field-web"
+                  />
+                  <label
+                    class="form__label-web form__label"
+                    for="user-field-web"
+                    >Enter your website URL</label
+                  >
+                </div>
               </fieldset>
+              <div class="form__group">
+                <textarea
+                  name="user-comment"
+                  id="comment-field"
+                  class="form__textarea"
+                  placeholder=" "
+                >
+                </textarea>
+                <label
+                  class="form__label-comment form__label"
+                  for="comment-field"
+                  >Enter your subject</label
+                >
+              </div>
+              <button class="form__button button">Sent message</button>
             </form>
           </section>
         </div>
       </div>
+      <section class="layout__section faq">
+        <div class="wrapper faq__wrapper">
+          <div class="faq__image-container">
+            <img class="faq__image" src="/Ava-App/img/faq.png" alt="faq" />
+          </div>
+          <div class="content-faq">
+            <h3 class="faq__subtitile subtitle">
+              See why we are trusted <br />
+              the world over
+            </h3>
+            <p class="faq__text text">
+              The first rule of any technology used in a business is that
+              automation applied to an efficient operation will magnify the
+              efficiency.
+            </p>
+            <ul class="faq__list">
+              <li class="faq__list-item">
+                <h5 class="faq__question">
+                  Do you provide customer support?
+                  <div class="faq__icon-container">
+                    <img
+                      class="faq__icon"
+                      src="/Ava-App/svg/faq_icon.svg"
+                      alt="plus"
+                    />
+                  </div>
+                </h5>
+                <div class="faq__answer-container">
+                  <p class="faq__answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa repellat molestiae sit? Cumque voluptatum, impedit
+                    repudiandae omnis possimus necessitatibus ratione, magnam
+                    architecto cum provident blanditiis? Dicta doloremque sunt
+                    eos exercitationem.
+                  </p>
+                </div>
+              </li>
+              <li class="faq__list-item">
+                <h5 class="faq__question">
+                  How much traffic can the hosting handle?
+                  <div class="faq__icon-container">
+                    <img
+                      class="faq__icon"
+                      src="/Ava-App/svg/faq_icon.svg"
+                      alt="plus"
+                    />
+                  </div>
+                </h5>
+              </li>
+              <li class="faq__list-item">
+                <h5 class="faq__question">
+                  Do you have any questions for us?
+                  <div class="faq__icon-container">
+                    <img
+                      class="faq__icon"
+                      src="/Ava-App/svg/faq_icon.svg"
+                      alt="plus"
+                    />
+                  </div>
+                </h5>
+              </li>
+              <li class="faq__list-item">
+                <h5 class="faq__question">
+                  What is your return policy?
+                  <div class="faq__icon-container">
+                    <img
+                      class="faq__icon"
+                      src="/Ava-App/svg/faq_icon.svg"
+                      alt="plus"
+                    />
+                  </div>
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="/Ava-App/js/script.js"></script>
   </body>
