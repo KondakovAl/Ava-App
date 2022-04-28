@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/aos.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -13,39 +13,37 @@
     <title>Ava Landing Page</title>
   </head>
   <body>
-    <div class="layout">
-      <header class="header">
-        <div class="wrapper header__wrapper">
-          <div class="header__logo">
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <div class="header__logo">
           <img src="svg/logo-dark.svg" alt="logo_dark" class="logo" />
-          </div>
-          <nav class="menu">
-            <a href="#home" class="menu__item">home</a>
-            <a href="#about" class="menu__item">about</a>
-            <a href="#pricing" class="menu__item">pricing</a>
-            <a href="#blog" class="menu__item">blog</a>
-            <a href="#faq" class="menu__item">faq</a>
-            <a href="#contact" class="menu__item">contact</a>
-          </nav>
-          <a href="" class="header__button-container">
-            <span class="button header__button">Purchase template</span>
-          </a>
-          <nav class="menu menu_mobile">
-            <a href="#" class="menu__item">home</a>
-            <a href="#" class="menu__item">about</a>
-            <a href="#" class="menu__item">pricing</a>
-            <a href="#" class="menu__item">blog</a>
-            <a href="#" class="menu__item">faq</a>
-            <a href="#" class="menu__item">contact</a>
-          </nav>
-          <div class="burger">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-          </div>
         </div>
-      </header>
-    </div>
+        <nav class="menu">
+          <a href="#home" class="menu__item">home</a>
+          <a href="#about" class="menu__item">about</a>
+          <a href="#pricing" class="menu__item">pricing</a>
+          <a href="#blog" class="menu__item">blog</a>
+          <a href="#faq" class="menu__item">faq</a>
+          <a href="#contact" class="menu__item">contact</a>
+        </nav>
+        <a href="" class="header__button-container">
+          <span class="button header__button">Purchase template</span>
+        </a>
+        <nav class="menu menu__mobile">
+          <a href="#" class="menu__item menu__item-mob">home</a>
+          <a href="#" class="menu__item menu__item-mob">about</a>
+          <a href="#" class="menu__item menu__item-mob">pricing</a>
+          <a href="#" class="menu__item menu__item-mob">blog</a>
+          <a href="#" class="menu__item menu__item-mob">faq</a>
+          <a href="#" class="menu__item menu__item-mob">contact</a>
+        </nav>
+        <div class="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </div>
+      </div>
+    </header>
     <main class="main">
       <section class="layout__section promo" id="home">
         <div class="wrapper promo__wrapper">
@@ -63,7 +61,7 @@
               <div class="client__avatar-container">
                 <img
                   class="avatar__image"
-                  src="/Ava-App/img/Samanta Norton.png"
+                  src="/img/Samanta Norton.png"
                   alt="Samanta Norton"
                 />
               </div>
@@ -71,28 +69,33 @@
                 <span class="client__name">Samantha Norton</span>
                 <ul class="client__rating">
                   <li class="client__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
+                    <img src="/svg/star.svg" alt="star" />
                   </li>
                   <li class="client__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
+                    <img src="/svg/star.svg" alt="star" />
                   </li>
                   <li class="client__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
+                    <img src="/svg/star.svg" alt="star" />
                   </li>
                   <li class="client__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
+                    <img src="/svg/star.svg" alt="star" />
                   </li>
                   <li class="client__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
+                    <img src="/svg/star.svg" alt="star" />
                   </li>
                 </ul>
               </div>
             </div>
-            <a href="" class="button-container">
+            <a href="" class="button-container promo__button-container">
               <span class="button promo__button">Get started now</span>
             </a>
           </div>
-          <div class="promo__image-container" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+          <div
+            class="promo__image-container"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
             <img
               class="promo__image"
               src="img/promo-image.png"
@@ -113,10 +116,14 @@
             way to be truly satisfied is to do what you believe is great work.
             And the only way to do great work is to love what you do.
           </p>
-          <div class="technology__image-container" data-aos="zoom-in"  data-aos-duration="1000">
+          <div
+            class="technology__image-container"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <img
               class="technology__image"
-              src="/Ava-App/img/technology_image.png"
+              src="/img/technology_image.png"
               alt="image-tech"
             />
           </div>
@@ -135,11 +142,11 @@
               efficiency.
             </p>
             <div class="about__advantages">
-              <acrticle class="card">
+              <div class="card">
                 <div class="card__icon-container">
                   <img
                     class="card__icon"
-                    src="/Ava-App/svg/card_icon-1.svg"
+                    src="/svg/card_icon-1.svg"
                     alt="icon-1"
                   />
                 </div>
@@ -147,12 +154,12 @@
                 <p class="card__text text">
                   Make every detail perfect & limit the number of details.
                 </p>
-              </acrticle>
-              <acrticle class="card">
+              </div>
+              <div class="card">
                 <div class="card__icon-container">
                   <img
                     class="card__icon"
-                    src="/Ava-App/svg/card-icon-2.svg"
+                    src="/svg/card-icon-2.svg"
                     alt="icon-2"
                   />
                 </div>
@@ -160,7 +167,7 @@
                 <p class="card__text text">
                   Make every detail perfect & limit the number of details.
                 </p>
-              </acrticle>
+              </div>
             </div>
             <a href="" class="button-container">
               <span class="button about__button">Read more</span>
@@ -170,7 +177,7 @@
             <div class="contact__image-container">
               <img
                 class="contact__image"
-                src="/Ava-App/img/contact-image.png"
+                src="/img/contact-image.png"
                 alt="our team"
               />
             </div>
@@ -182,8 +189,13 @@
               </p>
               <fieldset class="form__user-contacts">
                 <div class="form__group">
-                  <input class="form__input-name form__input" type="text"
-                  name="user-name" placeholder=" "  id="user-field-name">
+                  <input
+                    class="form__input-name form__input"
+                    type="text"
+                    name="user-name"
+                    placeholder=" "
+                    id="user-field-name"
+                  />
                   <label
                     class="form__label-name form__label"
                     for="user-field-id"
@@ -239,8 +251,7 @@
                   id="comment-field"
                   class="form__textarea"
                   placeholder=" "
-                >
-                </textarea>
+                ></textarea>
                 <label
                   class="form__label-comment form__label"
                   for="comment-field"
@@ -254,8 +265,13 @@
       </div>
       <section class="layout__section faq" id="faq">
         <div class="wrapper faq__wrapper">
-          <div class="faq__image-container" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
-            <img class="faq__image" src="/Ava-App/img/faq.png" alt="faq" />
+          <div
+            class="faq__image-container"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <img class="faq__image" src="/img/faq.png" alt="faq" />
           </div>
           <div class="content-faq">
             <h3 class="faq__subtitile subtitle">
@@ -272,11 +288,7 @@
                 <h5 class="faq__question">
                   Do you provide customer support?
                   <div class="faq__icon-container">
-                    <img
-                      class="faq__icon"
-                      src="/Ava-App/svg/faq_icon.svg"
-                      alt="plus"
-                    />
+                    <img class="faq__icon" src="/svg/faq_icon.svg" alt="plus" />
                   </div>
                 </h5>
                 <div class="faq__answer-container">
@@ -293,11 +305,7 @@
                 <h5 class="faq__question">
                   How much traffic can the hosting handle?
                   <div class="faq__icon-container">
-                    <img
-                      class="faq__icon"
-                      src="/Ava-App/svg/faq_icon.svg"
-                      alt="plus"
-                    />
+                    <img class="faq__icon" src="/svg/faq_icon.svg" alt="plus" />
                   </div>
                 </h5>
                 <div class="faq__answer-container">
@@ -312,14 +320,9 @@
               </li>
               <li class="faq__list-item">
                 <h5 class="faq__question">
-                  
                   Do you have any questions for us?
                   <div class="faq__icon-container">
-                    <img
-                      class="faq__icon"
-                      src="/Ava-App/svg/faq_icon.svg"
-                      alt="plus"
-                    />
+                    <img class="faq__icon" src="/svg/faq_icon.svg" alt="plus" />
                   </div>
                 </h5>
                 <div class="faq__answer-container">
@@ -336,11 +339,7 @@
                 <h5 class="faq__question">
                   What is your return policy?
                   <div class="faq__icon-container">
-                    <img
-                      class="faq__icon"
-                      src="/Ava-App/svg/faq_icon.svg"
-                      alt="plus"
-                    />
+                    <img class="faq__icon" src="/svg/faq_icon.svg" alt="plus" />
                   </div>
                 </h5>
                 <div class="faq__answer-container">
@@ -372,19 +371,40 @@
               <li class="progress-bar__item">
                 <div class="progress-bar__item-description">
                   <span class="progress-bar__item-title"> Research </span>
-                  <span class="progress-bar__item-percent" data-aos="fade" data-aos-delay="400" data-aos-duration="3000"> 85% </span>
+                  <span
+                    class="progress-bar__item-percent"
+                    data-aos="fade"
+                    data-aos-delay="400"
+                    data-aos-duration="3000"
+                  >
+                    85%
+                  </span>
                 </div>
                 <div class="scale">
-                  <span class="scale__colored scale__colored_first" data-aos="loading-1" data-aos-delay="100"></span>
+                  <span
+                    class="scale__colored colored__first"
+                    data-aos="loading-1"
+                    data-aos-delay="100"
+                  ></span>
                 </div>
               </li>
               <li class="progress-bar__item">
                 <div class="progress-bar__item-description">
                   <span class="progress-bar__item-title"> Education </span>
-                  <span class="progress-bar__item-percent" data-aos="fade" data-aos-delay="800" data-aos-duration="3000"> 65% </span>
+                  <span
+                    class="progress-bar__item-percent"
+                    data-aos="fade"
+                    data-aos-delay="800"
+                    data-aos-duration="3000"
+                  >
+                    65%
+                  </span>
                 </div>
                 <div class="scale">
-                  <span class="scale__colored scale__colored_second" data-aos="loading-2"></span>
+                  <span
+                    class="scale__colored colored__second"
+                    data-aos="loading-2"
+                  ></span>
                 </div>
               </li>
               <li class="progress-bar__item">
@@ -392,10 +412,20 @@
                   <span class="progress-bar__item-title">
                     Strategy Development
                   </span>
-                  <span class="progress-bar__item-percent" data-aos="fade" data-aos-delay="1200" data-aos-duration="3000"> 72% </span>
+                  <span
+                    class="progress-bar__item-percent"
+                    data-aos="fade"
+                    data-aos-delay="1200"
+                    data-aos-duration="3000"
+                  >
+                    72%
+                  </span>
                 </div>
                 <div class="scale">
-                  <span class="scale__colored scale__colored_third" data-aos="loading-3"></span>
+                  <span
+                    class="scale__colored colored__third"
+                    data-aos="loading-3"
+                  ></span>
                 </div>
               </li>
             </ul>
@@ -407,12 +437,54 @@
             <div class="price__description">
               <span class="price__cost">$45.00</span>
               <ul class="price__list">
-                <li class="price__list-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Meet and Greet with Speakers</li>
-                <li class="price__list-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Video Facilities</li>
-                <li class="price__list-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Speaker Facilities</li>
-                <li class="price__list-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Questions & Answers</li>
-                <li class="price__list-item" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Questions & Answers</li>
-                <li class="price__list-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Dedicated account manager</li>
+                <li
+                  class="price__list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  Meet and Greet with Speakers
+                </li>
+                <li
+                  class="price__list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  Video Facilities
+                </li>
+                <li
+                  class="price__list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                >
+                  Speaker Facilities
+                </li>
+                <li
+                  class="price__list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                >
+                  Questions & Answers
+                </li>
+                <li
+                  class="price__list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                >
+                  Questions & Answers
+                </li>
+                <li
+                  class="price__list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  data-aos-duration="1000"
+                >
+                  Dedicated account manager
+                </li>
               </ul>
               <a href="" class="button-container">
                 <span class="button price__button">Get ticket</span>
@@ -423,278 +495,296 @@
       </div>
       <section class="layout__section reviews">
         <div class="swiper">
-        <div class="wrapper slider__wrapper swiper-wrapper"> 
-              <div data-hash="slide-1" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-1.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">CEO of Marketing</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
+          <div class="wrapper slider__wrapper swiper-wrapper">
+            <div data-hash="slide-1" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-1.png"
+                  alt="user"
+                />
               </div>
-              <div data-hash="slide-2" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-2.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">Salesman</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
-              <div data-hash="slide-3" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-3.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">Sales Manager</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
-              <div data-hash="slide-4" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-4.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">Web Designer</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
-              <div data-hash="slide-5" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-1.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">CEO of Marketing</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
-              <div data-hash="slide-6" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-2.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">Salesman</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
-              <div data-hash="slide-7" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-3.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">Sales Manager</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
-              <div data-hash="slide-8" class="swiper-slide swiper-card">
-                <p class="swiper-card__text text">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. "
-                </p>
-                <div class="swiper-card__image-container">
-                  <img
-                    class="swiper-card__image"
-                    src="/Ava-App/img/user-4.png"
-                    alt="user"
-                  />
-                </div>
-                <span class="swiper-card__user">Martin Eduard</span>
-                <span class="swiper-card__position">Web Designer</span>
-                <ul class="swiper-card__rating">
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                  <li class="swiper-card__rating-star">
-                    <img src="/Ava-App/svg/star.svg" alt="star" />
-                  </li>
-                </ul>
-              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">CEO of Marketing</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
             </div>
-            <div href="" class="btn-swiper-left swiper-button-prev" style="width: 48px; height: 48px;"><img class="btn-swiper-right__image" src="/Ava-App/svg/Arrow 1.svg" alt="arrow-left"></div>
-            <div href="" class="btn-swiper-right swiper-button-next" style="width: 48px; height: 48px;">
-              <img class="btn-swiper-right__image" src="/Ava-App/svg/Arrow 1.svg" alt="arrow-right">
+            <div data-hash="slide-2" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-2.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">Salesman</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
+            </div>
+            <div data-hash="slide-3" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-3.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">Sales Manager</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
+            </div>
+            <div data-hash="slide-4" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-4.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">Web Designer</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
+            </div>
+            <div data-hash="slide-5" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-1.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">CEO of Marketing</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
+            </div>
+            <div data-hash="slide-6" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-2.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">Salesman</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
+            </div>
+            <div data-hash="slide-7" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-3.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">Sales Manager</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
+            </div>
+            <div data-hash="slide-8" class="swiper-slide swiper-card">
+              <p class="swiper-card__text text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. "
+              </p>
+              <div class="swiper-card__image-container">
+                <img
+                  class="swiper-card__image"
+                  src="/img/user-4.png"
+                  alt="user"
+                />
+              </div>
+              <span class="swiper-card__user">Martin Eduard</span>
+              <span class="swiper-card__position">Web Designer</span>
+              <ul class="swiper-card__rating">
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+                <li class="swiper-card__rating-star">
+                  <img src="/svg/star.svg" alt="star" />
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div
+            href=""
+            class="btn-swiper-left swiper-button-prev"
+            style="width: 48px; height: 48px"
+          >
+            <img
+              class="btn-swiper-right__image"
+              src="/svg/Arrow 1.svg"
+              alt="arrow-left"
+            />
+          </div>
+          <div
+            href=""
+            class="btn-swiper-right swiper-button-next"
+            style="width: 48px; height: 48px"
+          >
+            <img
+              class="btn-swiper-right__image"
+              src="/svg/Arrow 1.svg"
+              alt="arrow-right"
+            />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
       </section>
       <section class="layout__section meeting">
         <div class="wrapper meeting__wrapper">
-          <h2 class="meeting__title title">
-            an unique marketing template
-          </h2>
+          <h2 class="meeting__title title">an unique marketing template</h2>
           <p class="meeting__text text">
-            "Any strategy that gets a message to rise above the clutter is terrific from the advertiser's perspective. Even if it's not much of a secret, it's still a pretty good marketing idea."
+            "Any strategy that gets a message to rise above the clutter is
+            terrific from the advertiser's perspective. Even if it's not much of
+            a secret, it's still a pretty good marketing idea."
           </p>
           <a href="" class="button-container">
             <span class="button meeting__button">Meet the team</span>
@@ -703,117 +793,187 @@
       </section>
       <section class="layout__section partners">
         <div class="wrapper partners__wrapper">
-          <div class="partners__image-container" data-aos="fade" data-aos-delay="200" data-aos-duration="2000">
-            <img src="/Ava-App/svg/partner-1.svg" alt="partner" class="partners__image"></div>
-          <div class="partners__image-container" data-aos="fade" data-aos-delay="400" data-aos-duration="2000">
-            <img src="/Ava-App/svg/partner-2.svg" alt="partner" class="partners__image"></div>
-          <div class="partners__image-container" data-aos="fade" data-aos-delay="600" data-aos-duration="2000">
-            <img src="/Ava-App/svg/partner-3.svg" alt="partner" class="partners__image"></div>
-          <div class="partners__image-container" data-aos="fade" data-aos-delay="800" data-aos-duration="2000">
-            <img src="/Ava-App/svg/partner-4.svg" alt="partner" class="partners__image"></div>
-          <div class="partners__image-container" data-aos="fade" data-aos-delay="1000" data-aos-duration="2000">
-            <img src="/Ava-App/svg/partner-5.svg" alt="partner" class="partners__image"></div>
-          <div class="partners__image-container" data-aos="fade" data-aos-delay="1200" data-aos-duration="2000">
-            <img src="/Ava-App/svg/partner-6.svg" alt="partner" class="partners__image"></div>
+          <div
+            class="partners__image-container"
+            data-aos="fade"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+          >
+            <img
+              src="/svg/partner-1.svg"
+              alt="partner"
+              class="partners__image"
+            />
+          </div>
+          <div
+            class="partners__image-container"
+            data-aos="fade"
+            data-aos-delay="400"
+            data-aos-duration="2000"
+          >
+            <img
+              src="/svg/partner-2.svg"
+              alt="partner"
+              class="partners__image"
+            />
+          </div>
+          <div
+            class="partners__image-container"
+            data-aos="fade"
+            data-aos-delay="600"
+            data-aos-duration="2000"
+          >
+            <img
+              src="/svg/partner-3.svg"
+              alt="partner"
+              class="partners__image"
+            />
+          </div>
+          <div
+            class="partners__image-container"
+            data-aos="fade"
+            data-aos-delay="800"
+            data-aos-duration="2000"
+          >
+            <img
+              src="/svg/partner-4.svg"
+              alt="partner"
+              class="partners__image"
+            />
+          </div>
+          <div
+            class="partners__image-container"
+            data-aos="fade"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img
+              src="/svg/partner-5.svg"
+              alt="partner"
+              class="partners__image"
+            />
+          </div>
+          <div
+            class="partners__image-container"
+            data-aos="fade"
+            data-aos-delay="1200"
+            data-aos-duration="2000"
+          >
+            <img
+              src="/svg/partner-6.svg"
+              alt="partner"
+              class="partners__image"
+            />
+          </div>
         </div>
       </section>
       <section class="section__layout news" id="blog">
         <div class="wrapper news__wrapper">
-          <h2 class="news__title title">
-            FROM OUR BLOG
-          </h2>
-          <h3 class="news__subtitile subtitle">
-            Recent News & Updates
-          </h3>
+          <h2 class="news__title title">FROM OUR BLOG</h2>
+          <h3 class="news__subtitile subtitle">Recent News & Updates</h3>
           <div class="recent-news">
-            <div class="news-blog news-blog_A" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-              <div class="news-blog__image-container"><img src="/Ava-App/img/blog-1.png" alt="" class="blog__image"></div>
+            <div
+              class="news-blog news-blog_A"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              <div class="news-blog__image-container">
+                <img src="/img/blog-1.png" alt="" class="blog__image" />
+              </div>
               <div class="blog-info">
-                <h2 class="blog-info__title title">
-                  Design
-                </h2>
+                <h2 class="blog-info__title title">Design</h2>
                 <h6 class="blog-info__subtitle subtitle">
                   Best Blogs To Follow About Web Design
                 </h6>
                 <p class="blog-info__text text">
-                  Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.
+                  Et magni et ea unde tempore. Corrupti quia adipisci qui dicta
+                  sint.
                 </p>
               </div>
             </div>
-            <div class="news-blog news-blog_B" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
-              <div class="news-blog__image-container"><img src="/Ava-App/img/blog-2.png" alt="" class="blog__image"></div>
+            <div
+              class="news-blog news-blog_B"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              <div class="news-blog__image-container">
+                <img src="/img/blog-2.png" alt="" class="blog__image" />
+              </div>
               <div class="blog-info">
-                <h2 class="blog-info__title title">
-                  TUTORIAL
-                </h2>
+                <h2 class="blog-info__title title">TUTORIAL</h2>
                 <h6 class="blog-info__subtitle subtitle">
-                  5 Great Web Design Resources                </h6>
+                  5 Great Web Design Resources
+                </h6>
                 <p class="blog-info__text text">
-                  Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.
+                  Et magni et ea unde tempore. Corrupti quia adipisci qui dicta
+                  sint.
                 </p>
               </div>
             </div>
-            <div class="news-blog news-blog_C" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-              <div class="news-blog__image-container"><img src="/Ava-App/img/blog-3.png" alt="" class="blog__image">  
+            <div
+              class="news-blog news-blog_C"
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <div class="news-blog__image-container">
+                <img src="/img/blog-3.png" alt="" class="blog__image" />
                 <div class="blog-info_main">
-                <h2 class="blog-info__title title">
-                  MARKETING
-                </h2>
-                <h6 class="blog-info__subtitle_main subtitle">
-                  What Will Website Be Like In 100 Years?</h6>
+                  <h2 class="blog-info__title title">MARKETING</h2>
+                  <h6 class="blog-info__subtitle_main subtitle">
+                    What Will Website Be Like In 100 Years?
+                  </h6>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-      <footer class="layout__section footer">
-        <div class="wrapper footer__wrapper">
+    <footer class="layout__section footer">
+      <div class="wrapper footer__wrapper">
         <div class="footer__logo">
           <img src="svg/logo-light.svg" alt="logo_light" class="logo" />
+        </div>
+        <nav class="footer-menu">
+          <a href="#" class="footer-menu__item">Style-guide</a>
+          <a href="#about" class="footer-menu__item">Licenses</a>
+          <a href="#pricing" class="footer-menu__item">Changelog</a>
+          <a href="#blog" class="footer-menu__item">Terms</a>
+          <a href="#faq" class="footer-menu__item">Password</a>
+          <a href="#contact" class="footer-menu__item">404</a>
+        </nav>
+        <div class="copyright">
+          <div class="copyright__text">
+            Created with love by
+            <span class="copyright__text-author"> Dorian Hoxha </span>
           </div>
-          <nav class="footer-menu">
-            <a href="#" class="footer-menu__item">Style-guide</a>
-            <a href="#about" class="footer-menu__item">Licenses</a>
-            <a href="#pricing" class="footer-menu__item">Changelog</a>
-            <a href="#blog" class="footer-menu__item">Terms</a>
-            <a href="#faq" class="footer-menu__item">Password</a>
-            <a href="#contact" class="footer-menu__item">404</a>
-          </nav>
-          <div class="copyright">
-            <div class="copyright__text">
-              Created with love by 
-              <span class="copyright__text-author">
-                Dorian Hoxha
-              </span>
-            </div>
-            <div class="copyright__text">
-              Powered by
-              <span class="copyright__text-author">
-                Webflow
-              </span>
-            </div>
+          <div class="copyright__text">
+            Powered by
+            <span class="copyright__text-author"> Webflow </span>
           </div>
-          <div class="footer__social">
-            <a href="#" class="social__item-link">
-              <img src="/Ava-App/svg/social-1.svg" alt="facebook" class="social__item">
-            </img>
-              <a href="#" class="social__item-link">
-                <img src="/Ava-App/svg/social-2.svg" alt="twitter" class="social__item"></a>
-                <a href="#" class="social__item-link">
-                  <img src="/Ava-App/svg/social-3.svg" alt="vine" class="social__item"></a>
-                <a href="#" class="social__item-link">
-                  <img src="/Ava-App/svg/social-4.svg" alt="pinterest" class="social__item">
-                </a>
-              </div>
-            </div>
-          </footer>
-          <button class="up-button" type="button">
-            ↑
-          </button>
+        </div>
+        <div class="footer__social">
+          <a href="#" class="social__item-link">
+            <img src="/svg/social-1.svg" alt="facebook" class="social__item"
+          /></a>
+          <a href="#" class="social__item-link">
+            <img src="/svg/social-2.svg" alt="twitter" class="social__item"
+          /></a>
+          <a href="#" class="social__item-link">
+            <img src="/svg/social-3.svg" alt="vine" class="social__item"
+          /></a>
+          <a href="#" class="social__item-link">
+            <img src="/svg/social-4.svg" alt="pinterest" class="social__item" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <button class="up-button" type="button">↑</button>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/Ava-App/js/aos.js"></script>
-    <script src="/Ava-App/js/script.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
