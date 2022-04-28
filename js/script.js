@@ -1,9 +1,7 @@
 // BURGER //
 
 let burger = document.querySelector('.burger');
-
 let menuMobile = document.querySelector('.menu__mobile');
-let menuMobileList = document.querySelector('menu__item-mob');
 
 
 burger.addEventListener('click', () => {
