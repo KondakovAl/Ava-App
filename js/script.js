@@ -1,19 +1,16 @@
 // BURGER //
 
 let burger = document.querySelector('.burger');
-let menuMobile = document.querySelector('.menu_mobile');
+
+let menuMobile = document.querySelector('.menu__mobile');
+let menuMobileList = document.querySelector('menu__item-mob');
+
 
 burger.addEventListener('click', () => {
     document.body.classList.toggle('_lock');
     burger.classList.toggle('_active');
     menuMobile.classList.toggle('_active');
   })
-  
-  if (burger.classList.contains('_active')) {
-      document.body.classList.remove('_lock');
-      burger.classList.remove('_active');
-      menuMobile.classList.remove('_active');
-  }
 
 
 //FAQ//

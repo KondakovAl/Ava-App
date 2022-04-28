@@ -51,7 +51,6 @@ header {
   display: flex;
   margin: 0 auto;
   padding: 0 10px;
-  /* background-color: aqua; */
 }
 
 .header__wrapper {
@@ -67,7 +66,7 @@ header {
   align-items: center;
 }
 
-.menu_mobile {
+.menu__mobile {
   display: none;
 }
 
@@ -192,8 +191,13 @@ header {
   display: flex;
 }
 
-.promo__button {
+
+.promo__button-container {
   width: 176px;
+}
+
+.promo__button {
+
   background: #ffa332;
 }
 
@@ -329,7 +333,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
-  box-shadow: 0px 8px 28px 0px #53535326;
+  box-shadow: 0px 8px 28px 20px #53535326;
 }
 
 .contact__image {
@@ -360,9 +364,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   row-gap: 32px;
-  /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px 25px; */
   justify-content: space-between;
   margin: 0 0 35px;
 }
@@ -577,7 +578,9 @@ header {
   height: 100%;
 }
 
-.scale__colored_first {
+
+
+.colored__first {
   background: #0057ff;
   width: 85%;
 }
@@ -596,7 +599,8 @@ header {
   }
 }
 
-.scale__colored_second {
+
+.colored__second {
   background: #b861ff;
   width: 65%;
 }
@@ -615,7 +619,7 @@ header {
   }
 }
 
-.scale__colored_third {
+.colored__third {
   background: #ff8e32;
   width: 72%;
 }
@@ -635,7 +639,7 @@ header {
 }
 
 .price {
-  box-shadow: 0px 8px 28px 0px #53535326;
+  box-shadow: 0px 8px 28px 20px #53535326;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -722,7 +726,6 @@ header {
   padding: 45px 47px 41px;
   border: 1px solid #e7e7e7;
   border-radius: 10px;
-  /* margin: 0 20px 0 0; */
 }
 
 .btn-swiper-right,
@@ -741,26 +744,6 @@ header {
 .swiper-button-prev::after {
   display: none;
 }
-
-/* Стилизация стрелок у слайдера */
-/* 
-.btn-swiper-right:hover {
-    animation: arrow-1 1s linear;
-}
-
-@keyframes arrow-1 {
-    0% {
-        left:0;
-    }
-    50% {
-        left:10px;
-    }
-    100% {
-        left:0;
-    }
-}  */
-
-/* ------------- */
 
 .swiper-pagination {
   bottom: 10px;
@@ -873,6 +856,7 @@ header {
   grid-template-areas:
     "A C"
     "B C";
+  overflow: hidden;
 }
 
 .news-blog {
@@ -958,6 +942,9 @@ header {
   color: #ffffff;
   font-size: 12px;
   line-height: 22px;
+  display: flex;
+  color: #ffffff;
+  font-size: 12px;
   letter-spacing: 1px;
   padding: 5px 8px;
 }
@@ -1014,13 +1001,18 @@ header {
 }
 
 .social__item-link:not(:last-child) {
-  margin: 0 5px 0 0;
+  margin-right: 5px;
+}
+
+.social__item-link:last-child {
+  margin-right: 0;
+
 }
 
 /* Social Animation */
 
 .social__item-link {
-  display: inline-block;
+  display: flex;
   animation: float 5s ease-in-out infinite;
 }
 
@@ -1187,18 +1179,6 @@ header {
   .progress__text {
     max-width: fit-content;
   }
-
-  /* .price {
-        width: 700px;
-    }
-
-    .price__image-container {
-        background-size: cover;
-    }
-
-    .price__image-info {
-        text-align: center;
-    } */
 
   .swiper {
     width: calc(100vw - (100vw - 800px) / 2);
@@ -1496,6 +1476,10 @@ header {
 
   .swiper-card {
     max-width: 300px;
+  }
+
+  .footer-menu {
+    justify-content: center;
   }
 }
 
