@@ -191,13 +191,11 @@ header {
   display: flex;
 }
 
-
 .promo__button-container {
   width: 176px;
 }
 
 .promo__button {
-
   background: #ffa332;
 }
 
@@ -578,8 +576,6 @@ header {
   height: 100%;
 }
 
-
-
 .colored__first {
   background: #0057ff;
   width: 85%;
@@ -598,7 +594,6 @@ header {
     width: 85%;
   }
 }
-
 
 .colored__second {
   background: #b861ff;
@@ -1006,7 +1001,6 @@ header {
 
 .social__item-link:last-child {
   margin-right: 0;
-
 }
 
 /* Social Animation */
