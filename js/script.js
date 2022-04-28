@@ -1,15 +1,17 @@
 // BURGER //
 
 let burger = document.querySelector('.burger');
+
 let menuMobile = document.querySelector('.menu__mobile');
 let menuMobileList = document.querySelector('menu__item-mob');
+
 
 burger.addEventListener('click', () => {
     document.body.classList.toggle('_lock');
     burger.classList.toggle('_active');
     menuMobile.classList.toggle('_active');
   })
- 
+
 
 //FAQ//
 

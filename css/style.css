@@ -191,11 +191,13 @@ header {
   display: flex;
 }
 
+
 .promo__button-container {
   width: 176px;
 }
 
 .promo__button {
+
   background: #ffa332;
 }
 
@@ -576,6 +578,8 @@ header {
   height: 100%;
 }
 
+
+
 .colored__first {
   background: #0057ff;
   width: 85%;
@@ -594,6 +598,7 @@ header {
     width: 85%;
   }
 }
+
 
 .colored__second {
   background: #b861ff;
@@ -934,6 +939,9 @@ header {
 }
 
 .footer-menu__item {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 22px;
   display: flex;
   color: #ffffff;
   font-size: 12px;
@@ -990,11 +998,15 @@ header {
   height: 48px;
   border: 1px solid rgba(240, 242, 250, 0.33);
   border-radius: 50%;
+}
+
+.social__item-link:not(:last-child) {
   margin-right: 5px;
 }
 
 .social__item-link:last-child {
   margin-right: 0;
+
 }
 
 /* Social Animation */
